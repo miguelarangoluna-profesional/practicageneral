@@ -16,6 +16,7 @@
         <div class="acciones-superiores">
             <a th:text="${'Agregar ofertas'}" th:href="@{/addoferta}"></a>
             <a th:href="@{/}">Volver</a>
+            <a th:href="@{/limpiar1}">Limpiar</a>
         </div>
 
         <div th:if="${listaofertas != null and !listaofertas.empty}">
